@@ -14,6 +14,6 @@ class Book{
     }
 
     public String getInfo(){
-        return title + "by" + author + " ";
+        return title + " by " + author + " ";
     }
 }

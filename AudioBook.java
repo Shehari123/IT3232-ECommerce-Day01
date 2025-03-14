@@ -1,7 +1,7 @@
 class AudioBook extends Book {
     private double duration;
 
-    public AudioBook(String title, String author, int year, double duration) {
+    public AudioBook(String title, String author, double duration) {
         super(title, author);
         this.duration = duration;
     }
