@@ -2,7 +2,7 @@ class EBook extends Book{
     private String fileFormat;
 
     public EBook(String title,String author,String fileFormat) {
-        super(title, author, year);
+        super(title, author);
         this.fileFormat = fileFormat;
     }
 
