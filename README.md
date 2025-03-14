@@ -5,7 +5,19 @@ This repository contains a collection of Java programs demonstrating various pro
 ## Programs Included
 
 ### 1. Basic Operations (`one.java`)
+## Descriptions
 
+
+This program demonstrates basic Java functionality, including printing a message, iterating through numbers, and handling odd numbers and number reversal using loops and conditions.
+
+## Features
+```
+Print a message
+Print numbers from 1 to 10
+Print numbers in reverse from 10 to 1
+Print odd numbers between 1 to 20
+Reverse the left and right numbers with only a loop
+```
 **Output:**
 ```
 Hello World...
@@ -48,6 +60,16 @@ Enter a Number: 9
 ```
 
 ### 2. Student Management (`Student.java` & `StudentMain.java`)
+## Descriptions
+
+This program creates a Student class with attributes like name and marks. It calculates the average marks of students.
+
+## Features
+```
+Create a Student class with getters and setters
+Store marks of students
+Calculate and display the average marks
+```
 
 **Output:**
 ```
@@ -56,6 +78,16 @@ Student 2 Average Of Marks: 90.0
 ```
 
 ### 3. Book Hierarchy (`LibraryDemo.java`)
+## Descriptions
+
+This program demonstrates inheritance in Java with different types of books: PrintedBook, EBook, and AudioBook.
+
+## Features
+```
+Base Book class
+Subclasses for different types of books
+Display book information
+```
 
 **Output:**
 ```
@@ -65,6 +97,15 @@ To Kill a Mockingbird by Harper Lee, Duration: 12.5 hours
 ```
 
 ### 4. Retail Store (`Main.java` with `Product` and `RetailStore` classes)
+## Descriptions
+
+A simple retail store management system that allows adding products and displaying available products.
+
+## Features
+```
+Add products to the store
+Display available products
+```
 
 **Output:**
 ```
