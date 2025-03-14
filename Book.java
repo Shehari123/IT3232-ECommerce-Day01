@@ -4,16 +4,16 @@ library like Printed books, E books, and Audio books
 
 You must use inhertance, polymorphism, encapuslation...*/
 
-public class Book{
+class Book{
     private String title;
     private String author;
     
-    public Book(String title,string author,int year){
+    public Book(String title,String author){
         this.title = title;
-        this.author = athor;
+        this.author = author;
     }
 
     public String getInfo(){
-        return title + "by" + author +".";
+        return title + "by" + author + " ";
     }
 }
