@@ -40,7 +40,8 @@ public Class Student{
     }
 
     public static void main(Strings[] args){
-        Student s1 = new Student("Maleesha",{80,50,65});
-        s1.getAverage({80,50,60});
+        int[] marks = {80,50,65};
+        Student s1 = new Student("Maleesha",marks);
+        s1.getAverage(marks);
     }
 }
