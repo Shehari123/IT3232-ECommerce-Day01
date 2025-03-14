@@ -2,8 +2,9 @@
 	-create 5 student objects and store it in 
 	a proper datastructure
     - find the average marks of the students */
+import java.util.*;
 
-public Class Student{
+public class Student{
     private String name;
     private int[] marks;
 
@@ -17,7 +18,7 @@ public Class Student{
     }
 
     public void setName(String name){
-        this name = name;
+        this.name = name;
     }
 
     public int[] getMarks(){
@@ -28,7 +29,7 @@ public Class Student{
         this.marks=marks;
     }
 
-    public double getAverage(int[] marks){
+    public double getAverage(){
         int sum = 0;
         int n = marks.length;
         for (int i = 0 ; i < n; i++)
@@ -37,11 +38,5 @@ public Class Student{
         }
         int average = sum / n;
         System.out.println("Average Of Marks: "+average);
-    }
-
-    public static void main(Strings[] args){
-        int[] marks = {80,50,65};
-        Student s1 = new Student("Maleesha",marks);
-        s1.getAverage(marks);
     }
 }
