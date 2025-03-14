@@ -27,4 +27,20 @@ public Class Student{
     public void setMarks(int[] marks){
         this.marks=marks;
     }
+
+    public double getAverage(int[] marks){
+        int sum = 0;
+        int n = marks.length;
+        for (int i = 0 ; i < n; i++)
+        {
+            sum = sum + marks[i];
+        }
+        int average = sum / n;
+        System.out.println("Average Of Marks: "+average);
+    }
+
+    public static void main(Strings[] args){
+        Student s1 = new Student("Maleesha",{80,50,65});
+        s1.getAverage({80,50,60});
+    }
 }
