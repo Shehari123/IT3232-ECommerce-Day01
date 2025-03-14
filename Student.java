@@ -29,14 +29,14 @@ public class Student{
         this.marks=marks;
     }
 
-    public double getAverage(){
+    public void getAverage(){
         int sum = 0;
         int n = marks.length;
         for (int i = 0 ; i < n; i++)
         {
             sum = sum + marks[i];
         }
-        int average = sum / n;
+        double average = sum / n;
         System.out.println("Average Of Marks: "+average);
     }
 }
