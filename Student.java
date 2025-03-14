@@ -3,4 +3,28 @@
 	a proper datastructure
     - find the average marks of the students */
 
-public Class Student
+public Class Student{
+    private String name;
+    private int[] marks;
+
+    public Student(String name,int[] marks){
+        this.name = name;
+        this.marks = marks;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+
+    public void setName(String name){
+        this name = name;
+    }
+
+    public int[] getMarks(){
+        return this.marks;
+    }
+
+    public void setMarks(int[] marks){
+        this.marks=marks;
+    }
+}
