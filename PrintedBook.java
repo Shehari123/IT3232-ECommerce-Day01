@@ -1,8 +1,8 @@
 class PrintedBook extends Book{
     private int pages;
 
-    public PrintedBook(String title, String author, int year, int pages) {
-        super(title, author, year);
+    public PrintedBook(String title, String author,int pages) {
+        super(title, author);
         this.pages = pages;
     }
 
