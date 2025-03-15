@@ -102,15 +102,145 @@ A simple retail store management system that allows adding products and displayi
 ## Features
 ```
 Add products to the store
+Edit products to the store
+Delete products to the store
 Display available products
 ```
 
 **Output:**
 ```
-Available Products:
-Apple - $1.0 - 100 in stock
-Carrot - $0.5 - 200 in stock
-Rice - $2.0 - 50 in stock
+Product added successfully!
+Product added successfully!
+Product added successfully!
+Product added successfully!
+Product added successfully!
+Product added successfully!
+
+===== AVAILABLE PRODUCTS =====
+
+Name: Apple
+Price: $1.99
+Quantity: 100
+Category: Fruit
+---------------------------
+Organic: Yes
+---------------------------
+Name: Banana
+Price: $0.99
+Quantity: 150
+Category: Fruit
+---------------------------
+Organic: No
+---------------------------
+Name: Carrot
+Price: $1.49
+Quantity: 80
+Category: Vegetable
+---------------------------
+Seasonal: Yes
+---------------------------
+Name: Spinach
+Price: $2.49
+Quantity: 50
+Category: Vegetable
+---------------------------
+Seasonal: Yes
+---------------------------
+Name: Rice
+Price: $5.99
+Quantity: 30
+Category: Grocery
+---------------------------
+Brand: Basmati
+Expiry Date: 2025-12-31
+---------------------------
+Name: Cereal
+Price: $4.49
+Quantity: 25
+Category: Grocery
+---------------------------
+Brand: Kellogg's
+Expiry Date: 2025-06-30
+---------------------------
+
+===== AFTER EDITING =====
+
+Green Apple not found!
+G002 not found!
+
+===== AVAILABLE PRODUCTS =====
+
+Name: Apple
+Price: $1.99
+Quantity: 100
+Category: Fruit
+---------------------------
+Organic: Yes
+---------------------------
+Name: Banana
+Price: $0.99
+Quantity: 150
+Category: Fruit
+---------------------------
+Organic: No
+---------------------------
+Name: Carrot
+Price: $1.49
+Quantity: 80
+Category: Vegetable
+---------------------------
+Seasonal: Yes
+---------------------------
+Name: Spinach
+Price: $2.49
+Quantity: 50
+Category: Vegetable
+---------------------------
+Seasonal: Yes
+---------------------------
+Name: Rice
+Price: $5.99
+Quantity: 30
+Category: Grocery
+---------------------------
+Brand: Basmati
+Expiry Date: 2025-12-31
+---------------------------
+Name: Cereal
+Price: $4.49
+Quantity: 25
+Category: Grocery
+---------------------------
+Brand: Kellogg's
+Expiry Date: 2025-06-30
+---------------------------
+
+===== FRUIT PRODUCTS =====
+
+Name: Apple
+Price: $1.99
+Quantity: 100
+Category: Fruit
+---------------------------
+Organic: Yes
+---------------------------
+Name: Banana
+Price: $0.99
+Quantity: 150
+Category: Fruit
+---------------------------
+Organic: No
+---------------------------
+
+===== SEARCH RESULTS =====
+
+Name: Apple
+Price: $1.99
+Quantity: 100
+Category: Fruit
+---------------------------
+Organic: Yes
+---------------------------
 ```
 
 ## How to Compile and Run
