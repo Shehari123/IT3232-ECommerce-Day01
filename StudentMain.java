@@ -2,15 +2,23 @@ import java.util.*;
 
 public class StudentMain {
     public static void main(String[] args) {
-        int[] marks1 ={85, 90, 78, 88, 92};
-        int[] marks2 ={90, 95, 92, 88, 85};
 
-        Student s1 = new Student("John", marks1);
-        Student s2 = new Student("Peter", marks2);
+        Student[] students = new Student[5];
         
-        System.out.print("Student 1"+ " ");
-        s1.getAverage();
-        System.out.print("Student 2"+ " ");
-        s2.getAverage();
+       
+        students[0] = new Student("Alice", 92);
+        students[1] = new Student("Bob", 78);
+        students[2] = new Student("Charlie", 85);
+        students[3] = new Student("Dave",90);
+        students[4] = new Student("Eve",88);
+        
+       
+        int totalMarks = 0;
+        for (Student student : students) {
+            totalMarks = totalMarks + student.getMarks();
+        }
+        double averageMarks = totalMarks / students.length;
+        
+        System.out.printf("\nAverage marks: %.2f", averageMarks);
     }
 }
