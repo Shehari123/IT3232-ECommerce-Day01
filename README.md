@@ -67,14 +67,12 @@ This program creates a Student class with attributes like name and marks. It cal
 ## Features
 ```
 Create a Student class with getters and setters
-Store marks of students
 Calculate and display the average marks
 ```
 
 **Output:**
 ```
-Student 1 Average Of Marks: 86.0
-Student 2 Average Of Marks: 90.0
+Average marks: 86.00
 ```
 
 ### 3. Book Hierarchy (`LibraryDemo.java`)
